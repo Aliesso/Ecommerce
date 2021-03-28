@@ -1,0 +1,50 @@
+﻿@model FilterProductsVM
+
+<div class="row">
+    @foreach (var product in Model.Products)
+    {
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 mb-6" data-aos="fade-up" data-aos-delay="200">
+            <!-- Single Prodect -->
+            <div class="product">
+                <div class="thumb">
+                    <a href="/products/details/@product.ID" class="image">
+                        <img src="~/@product.ProductPictures[0].Picture.URL" alt="Product" />
+                        <img class="hover-image" src="~/@product.ProductPictures[1].Picture.URL" alt="Product" />
+                    </a>
+                    @if (product.IsNew)
+                    {
+                        <span class="badges">
+                            <span class="new">New</span>
+                        </span>
+                    }
+
+                    <div class="actions">
+                        <a href="wishlist.html" class="action wishlist" title="Wishlist">
+                            <i class="icon-heart"></i>
+                        </a>
+                        <a href="#" class="action quickview" ali="@product.ID" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="icon-size-fullscreen"></i>
+                        </a>
+                        <a href="compare.html" class="action compare" title="Compare">
+                            <i class="icon-refresh"></i>
+                        </a>
+                    </div>
+                    @if (product.Count > 0)
+                    {
+                        <button title="Add To Cart" alis="@product.ID" class="add-to-cart">
+                            Add
+                            To Cart
+                        </button>
+                    }
+
+                </div>
+                <div class="content">
+                    <h5 class="title"><a href="/products/details/@product.ID">@product.Name </a></h5>
+                    <span class="price">
+                        <span class="new">@product.Price Azn</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    }
+</div>

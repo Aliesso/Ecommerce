@@ -1,0 +1,17 @@
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\bin\Debug\net5.0\Services.deps.json
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\bin\Debug\net5.0\Services.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\bin\Debug\net5.0\ref\Services.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\bin\Debug\net5.0\Services.pdb
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\Services.csprojAssemblyReference.cache
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\Services.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\ref\Services.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\Services.pdb
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\bin\Debug\net5.0\DataAccess.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\bin\Debug\net5.0\Entities.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\bin\Debug\net5.0\DataAccess.pdb
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\bin\Debug\net5.0\Entities.pdb
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Services\obj\Debug\net5.0\Services.csproj.CopyComplete

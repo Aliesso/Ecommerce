@@ -1,0 +1,41 @@
+﻿@model List<Product>
+@foreach (var pro in Model)
+{
+    <!-- Single Prodect -->
+    <div class="new-product-item swiper-slide">
+        <div class="product">
+            <div class="thumb">
+                <a href="/products/details/@pro.ID" class="image">
+                    <img src="~/@pro.ProductPictures[0].Picture.URL" alt="Product" />
+                    <img class="hover-image" src="~/@pro.ProductPictures[1].Picture.URL" alt="Product" />
+                </a>
+                <span class="badges">
+                    <span class="sale">-10%</span>
+                    <span class="new">New</span>
+                </span>
+                <div class="actions">
+                    <a href="wishlist.html" class="action wishlist" title="Wishlist">
+                        <i class="icon-heart"></i>
+                    </a>
+                    <a href="#" class="action quickview" data-link-action="quickview" title="Quick view" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="icon-size-fullscreen"></i>
+                    </a>
+                    <a href="compare.html" class="action compare" title="Compare">
+                        <i class="icon-refresh"></i>
+                    </a>
+                </div>
+                <button title="Add To Cart" class=" add-to-cart">
+                    Add
+                    To Cart
+                </button>
+            </div>
+            <div class="content">
+                <h5 class="title"><a href="/products/details/@pro.ID">@pro.Name</a></h5>
+                <span class="price">
+                    <span class="new">@pro.Discount</span>
+                    <span class="old">@pro.Price</span>
+                </span>
+            </div>
+        </div>
+    </div>
+}

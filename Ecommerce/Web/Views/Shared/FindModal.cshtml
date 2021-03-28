@@ -1,0 +1,122 @@
+﻿@model Product
+<link rel="stylesheet" href="~/assets/css/vendor/vendor.min.css" />
+<link rel="stylesheet" href="~/assets/css/plugins/plugins.min.css" />
+<link rel="stylesheet" href="~/assets/css/style.min.css">
+<div class="row">
+    <div class="col-md-5 col-sm-12 col-xs-12 mb-lm-30px mb-sm-30px">
+        <!-- Swiper -->
+        <div class="swiper-container gallery-top mb-4">
+            <div class="swiper-wrapper">
+                @foreach (var picture in Model.ProductPictures)
+                {
+                    <div class="swiper-slide">
+                        <img class="img-responsive m-auto" src="~/@picture.Picture.URL" alt="">
+                    </div>
+                }
+
+            </div>
+        </div>
+        <div class="swiper-container gallery-thumbs slider-nav-style-1 small-nav">
+            <div class="swiper-wrapper">
+                @foreach (var picture in Model.ProductPictures)
+                {
+                    <div class="swiper-slide">
+                        <img class="img-responsive m-auto" src="~/@picture.Picture.URL" alt="">
+                    </div>
+                }
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-buttons">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-7 col-sm-12 col-xs-12">
+        <div class="product-details-content quickview-content">
+            <h2>@Model.Name</h2>
+            <p class="reference">Reference:<span> demo_17</span></p>
+            <div class="pro-details-rating-wrap">
+                <div class="rating-product">
+                    <i class="ion-android-star"></i>
+                    <i class="ion-android-star"></i>
+                    <i class="ion-android-star"></i>
+                    <i class="ion-android-star"></i>
+                    <i class="ion-android-star"></i>
+                </div>
+                <span class="read-review"><a class="reviews" href="#">Read reviews (1)</a></span>
+            </div>
+            <div class="pricing-meta">
+                <ul>
+                    <li class="old-price not-cut">@Model.Price</li>
+                </ul>
+            </div>
+            <p class="quickview-para">@Model.Description</p>
+            <div class="pro-details-size-color">
+                <div class="pro-details-color-wrap">
+                    <span>Color</span>
+                    <div class="pro-details-color-content">
+                        <ul>
+                            <li class="blue"></li>
+                            <li class="maroon active"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="pro-details-quality">
+                @if (Model.Count > 0)
+                {
+                    <div class="cart-plus-minus">
+                        <input class="cart-plus-minus-box" min="1" max="@Model.Count" type="number" name="qtybutton" value="1" />
+                    </div>
+                    <div class="pro-details-cart">
+                        <button alis="@Model.ID" class="add-cart btn btn-primary btn-hover-primary ml-4" href="#">
+                            Add To
+                            Cart
+                        </button>
+                    </div>
+                }
+                else
+                {
+                    <p class="alert alert-danger">Out of Stock</p>
+                }
+            </div>
+            <div class="pro-details-wish-com">
+                <div class="pro-details-wishlist">
+                    <a href="wishlist.html">
+                        <i class="ion-android-favorite-outline"></i>Add to
+                        wishlist
+                    </a>
+                </div>
+                <div class="pro-details-compare">
+                    <a href="compare.html"><i class="ion-ios-shuffle-strong"></i>Add to compare</a>
+                </div>
+            </div>
+            <div class="pro-details-social-info">
+                <span>Share</span>
+                <div class="social-info">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ion-social-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ion-social-google"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ion-social-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/assets/js/vendor/vendor.min.js"></script>
+<script src="~/assets/js/plugins/plugins.min.js"></script>
+<script src="~/js/basket.js"></script>
+<!-- Main Js -->
+<script src="~/assets/js/main.js"></script>

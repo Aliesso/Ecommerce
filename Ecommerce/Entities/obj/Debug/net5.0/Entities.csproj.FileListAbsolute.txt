@@ -1,0 +1,12 @@
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\bin\Debug\net5.0\Entities.deps.json
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\bin\Debug\net5.0\Entities.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\bin\Debug\net5.0\ref\Entities.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\bin\Debug\net5.0\Entities.pdb
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\obj\Debug\net5.0\Entities.csprojAssemblyReference.cache
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\obj\Debug\net5.0\Entities.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\obj\Debug\net5.0\ref\Entities.dll
+D:\Compar\compar academy\ASP\Ecommerce Web\Ecommerce\Entities\obj\Debug\net5.0\Entities.pdb
